@@ -41,11 +41,11 @@ func TechnicalServiceProgress() {
 			technicalServices.TechnicalServices[i].PhoneNumber,
 			technicalServices.TechnicalServices[i].Email,
 			technicalServices.TechnicalServices[i].Iban}
-		jsonTodo, _ := json.Marshal(technicalServiceRequest)
+		jsonTechSer, _ := json.Marshal(technicalServiceRequest)
 
 		response, err := http.Post("http://localhost:8080/api/v1/technical-services",
 			"application/json;charset=utf-8",
-			bytes.NewBuffer(jsonTodo))
+			bytes.NewBuffer(jsonTechSer))
 
 		if err != nil {
 			fmt.Println(err)
