@@ -1,0 +1,18 @@
+{
+  "technical_services": [
+    {
+      "service_name": "hello1seedfrom1",
+      "identity_number": "hello2seed",
+      "phone_number": "hello3seed",
+      "email": "hello4seed",
+      "iban": "hello5seed"
+    },
+    {
+    "service_name": "hello1seedfrom2",
+    "identity_number": "hello2seed",
+    "phone_number": "hello3seed",
+    "email": "hello4seed",
+    "iban": "hello5seed"
+    }
+  ]
+}

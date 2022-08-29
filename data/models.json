@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "name": "iPhone 13 Pro",
+      "short_description":"iPhone 13 Pro",
+      "is_active": true
+    },
+    {
+      "name": "iPhone 13",
+      "short_description":"iPhone 13",
+      "is_active": true
+    },
+    {
+      "name": "iPhone 12 Pro",
+      "short_description":"iPhone 12 Pro",
+      "is_active": true
+    },
+    {
+      "name": "Samsung Galaxy S9",
+      "short_description":"Samsung Galaxy S9",
+      "is_active": true
+    },
+    {
+      "name": "Samsung Galaxy M31",
+      "short_description":"Samsung Galaxy M31",
+      "is_active": true
+    },
+    {
+      "name": "Xiaomi 12",
+      "short_description":"Xiaomi 12",
+      "is_active": true
+    },
+    {
+      "name": "Xiaomi Mi 9",
+      "short_description":"Xiaomi Mi 9",
+      "is_active": true
+    },
+    {
+      "name": "Huawei P50",
+      "short_description":"Huawei P50",
+      "is_active": true
+    }
+  ]
+}

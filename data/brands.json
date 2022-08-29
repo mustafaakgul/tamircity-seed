@@ -1,0 +1,32 @@
+{
+  "brands": [
+    {
+      "name": "Apple",
+      "is_active": true
+    },
+    {
+      "name": "Samsung",
+      "is_active": true
+    },
+    {
+      "name": "Lenovo",
+      "is_active": true
+    },
+    {
+      "name": "HP",
+      "is_active": true
+    },
+    {
+      "name": "Asus",
+      "is_active": true
+    },
+    {
+      "name": "Dell",
+      "is_active": true
+    },
+    {
+      "name": "Monster",
+      "is_active": true
+    }
+  ]
+}
