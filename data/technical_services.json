@@ -1,18 +1,18 @@
 {
   "technical_services": [
     {
-      "service_name": "hello1seedfrom1",
-      "identity_number": "hello2seed",
-      "phone_number": "hello3seed",
-      "email": "hello4seed",
-      "iban": "hello5seed"
+      "service_name": "service1",
+      "identity_number": "123456789",
+      "phone_number": "123456789",
+      "email": "email1@email.com",
+      "iban": "123456789"
     },
     {
-    "service_name": "hello1seedfrom2",
-    "identity_number": "hello2seed",
-    "phone_number": "hello3seed",
-    "email": "hello4seed",
-    "iban": "hello5seed"
+      "service_name": "service2",
+      "identity_number": "123456789",
+      "phone_number": "123456789",
+      "email": "email2@email.com",
+      "iban": "123456789"
     }
   ]
 }

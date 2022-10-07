@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"time"
 )
 
 type Brands struct {
@@ -16,9 +17,34 @@ type Brands struct {
 type BrandRequest struct {
 	Name     string `json:"name"`
 	IsActive bool   `json:"is_active"`
+	//DeviceTypes []*DeviceTypeRequest `json:"device_types"`
+}
+
+type Todo struct {
+	ID                int         `json:"ID"`
+	CreatedAt         time.Time   `json:"CreatedAt"`
+	UpdatedAt         time.Time   `json:"UpdatedAt"`
+	DeletedAt         interface{} `json:"DeletedAt"`
+	Name              string      `json:"Name"`
+	ShortDescription  string      `json:"ShortDescription"`
+	IsActive          bool        `json:"IsActive"`
+	TechnicalServices interface{} `json:"TechnicalServices"`
+	Brands            interface{} `json:"Brands"`
+	FixTypes          interface{} `json:"FixTypes"`
+	Models            interface{} `json:"Models"`
+	Reservation       interface{} `json:"Reservation"`
 }
 
 func BrandProgress() {
+
+	response, err := http.Get("http://localhost:8080/api/v1/device-types/1")
+	bodyBytes, _ := ioutil.ReadAll(response.Body)
+	bodyString := string(bodyBytes)
+	fmt.Println(bodyString)
+	var todo Todo
+	json.Unmarshal(bodyBytes, &todo)
+	fmt.Println(todo)
+
 	jsonFile, err := os.Open("data/brands.json")
 	if err != nil {
 		fmt.Println(err)
